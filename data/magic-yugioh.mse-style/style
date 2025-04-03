@@ -77,19 +77,19 @@ init script:
 	typeline_offset_left_1:=		{-6}
 	typeline_offset_width_1:=		{8}
 
-
+#################### Styling Fields
+include file: /magic-modules.mse-include/texts/styling_fields
+include file: /magic-modules.mse-include/rarities/styling_fields
 include file: /magic-modules.mse-include/symbol-fonts/styling_fields
 include file: /magic-modules.mse-include/information/styling_fields
-include file: /magic-modules.mse-include/information/card_fields
 include file: /magic-modules.mse-include/indicators/styling_fields
-include file: /magic-modules.mse-include/stamps/styling_fields
+
+#################### Modules
+include file: /magic-modules.mse-include/information/card_fields
 include file: /magic-modules.mse-include/stamps/card_fields
 include file: /magic-modules.mse-include/casting-costs/card_fields
 include file: /magic-modules.mse-include/corners/card_fields
-include file: /magic-modules.mse-include/texts/styling_fields
 include file: /magic-modules.mse-include/rarities/card_fields
-include file: /magic-modules.mse-include/rarities/styling_fields
-include file: /magic-modules.mse-include/rarities/set_info
 
 #################### Extra Card Field looks.
 
